@@ -1,0 +1,10 @@
+.ml2 {
+    font-size:42px;
+  font-family: "Montserrat", sans-serif;
+  font-weight:900;
+  font-style: normal;
+}  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }

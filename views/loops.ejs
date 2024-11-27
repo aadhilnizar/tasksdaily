@@ -1,0 +1,24 @@
+<!-- <------for loop-----> 
+<% for(i=0;i<names.length;i++){ %>
+    <p> <%= names[i] %>
+
+    </p>
+<%}%>
+<!-- <-----forRach loop---> 
+<% names.forEach(function (i){%>
+    <h1>
+        <%=i%>
+    </h1>
+<%})%>
+
+<!-- <----if else----> 
+ <% if(names.length!==0){ %>
+    <%= names %>
+   
+  <% }else{ %>
+     <h1>Invalid array</h1>
+      
+    <!-- <% console.log("Invalid") %> -->
+ <% } %>
+ 
+   
