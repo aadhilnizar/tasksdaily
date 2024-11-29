@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/css/loginStyle.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <div class="mx-0 mx-sm-auto">
+        <div class="card">
+          <div class="card-header bg-primary">
+            <h5 class="card-title text-white mt-2" id="exampleModalLabel">User Poll</h5>
+          </div>
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
+              
+              <p>
+               <h1> Who is your favourite actor?</h1>
+                <strong>Answer the poll below.</strong>
+              </p>
+            </div>
+      
+            <hr />
+      
+            <form action="/" method="POST">
+                <p><strong>Your answer:</strong></p>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="actor" id="radio1" value="Fahad Fasil" />
+                    <label class="form-check-label" for="radio1">Fahad Fasil</label>
+                </div><br/>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="actor" id="radio2" value="Sunny Wayne" />
+                    <label class="form-check-label" for="radio2">Sunny Wayne</label>
+                </div><br/>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="actor" id="radio3" value="Antony Varghese Pepe" />
+                    <label class="form-check-label" for="radio3">Antony Varghese Pepe</label>
+                </div><br/>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="actor" id="radio4" value="Dulqer Salman" />
+                    <label class="form-check-label" for="radio4">Dulqer Salman</label>
+                </div><br/>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="actor" id="radio5" value="Prithviraj Sukumaran" />
+                    <label class="form-check-label" for="radio5">Prithviraj Sukumaran</label>
+                </div><br/>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            
+          </div>
+          
+        </div>
+      </div>
+</body>
+</html>
